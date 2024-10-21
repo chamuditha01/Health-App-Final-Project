@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ayursensei" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#336134</item>
+        <item name="colorPrimaryDark">#336134</item>
+        <item name="colorAccent">@color/teal_200</item>
+
+        <!-- Set the status bar color -->
+        <item name="android:statusBarColor">#336134</item> <!-- Change to your desired color -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Set to true for dark icons, false for light icons -->
+
+        <!-- Customize your theme here -->
+    </style>
+
+
+    <style name="Theme.Ayursensei.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Ayursensei.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Ayursensei.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
