@@ -14,6 +14,7 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Ayursensei.NoActionBar">
@@ -24,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"></activity>
-
+        <activity android:name=".signupPage" />
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

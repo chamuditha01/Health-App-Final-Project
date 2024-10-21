@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
         btnGetStarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onSendMessage(view); // Pass the view to the method
+                onGetStart(view); // Pass the view to the method
             }
         });
     }
-    public void onSendMessage(View view) {
+    public void onGetStart(View view) {
         Intent intent = new Intent(this, SecondActivity.class); // Use the correct class name
         startActivity(intent);
     }

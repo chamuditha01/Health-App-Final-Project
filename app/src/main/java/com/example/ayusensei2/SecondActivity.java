@@ -36,17 +36,31 @@ public class SecondActivity extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         // Find the SignIn button and set the click listener
-        Button signInButton = findViewById(R.id.signUpWithGoogle);
-        signInButton.setOnClickListener(new View.OnClickListener() {
+        Button signInButtonWithGoogle = findViewById(R.id.signUpWithGoogle);
+
+        Button signInButtonWithEmail = findViewById(R.id.signUpWihtEmail);
+        signInButtonWithGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                signIn();
+                signInWithGoogle();
+            }
+        });
+
+        signInButtonWithEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                signInWithEmail(view); // Pass the view to the method
             }
         });
     }
 
+    public void signInWithEmail(View view) {
+        Intent intent = new Intent(this, signupPage.class); // Use the correct class name
+        startActivity(intent);
+    }
+
     // Start the sign-in process
-    private void signIn() {
+    private void signInWithGoogle() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
