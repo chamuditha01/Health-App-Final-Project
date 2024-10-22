@@ -27,6 +27,10 @@
         <activity android:name=".SecondActivity"></activity>
         <activity android:name=".signupPage" />
         <activity android:name=".loginPage" />
+        <activity android:name=".fpvcodeinput" />
+        <activity android:name=".fpinputemail" />
+        <activity android:name=".resetPassword" />
+
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
