@@ -26,6 +26,7 @@
         </activity>
         <activity android:name=".SecondActivity"></activity>
         <activity android:name=".signupPage" />
+        <activity android:name=".loginPage" />
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

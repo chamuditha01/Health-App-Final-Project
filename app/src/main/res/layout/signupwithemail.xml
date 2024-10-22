@@ -35,7 +35,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txtloginemail"
         android:layout_width="312dp"
         android:layout_height="62dp"
         android:layout_marginStart="44dp"
@@ -53,7 +53,7 @@
         tools:ignore="RtlSymmetry" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txtloginpw"
         android:layout_width="312dp"
         android:layout_height="62dp"
         android:layout_marginStart="44dp"
@@ -91,7 +91,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
         android:layout_width="165dp"
         android:layout_height="47dp"
         android:layout_marginStart="114dp"

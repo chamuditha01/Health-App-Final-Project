@@ -39,6 +39,17 @@ public class SecondActivity extends AppCompatActivity {
         Button signInButtonWithGoogle = findViewById(R.id.signUpWithGoogle);
 
         Button signInButtonWithEmail = findViewById(R.id.signUpWihtEmail);
+
+        Button loginurl= findViewById(R.id.btnloginurl);
+
+        loginurl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                loginlink(view);
+            }
+        });
+
+
         signInButtonWithGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,12 +63,20 @@ public class SecondActivity extends AppCompatActivity {
                 signInWithEmail(view); // Pass the view to the method
             }
         });
+
+    }
+
+    public void loginlink(View view) {
+        Intent intent = new Intent(this, loginPage.class); // Use the correct class name
+        startActivity(intent);
     }
 
     public void signInWithEmail(View view) {
         Intent intent = new Intent(this, signupPage.class); // Use the correct class name
         startActivity(intent);
     }
+
+
 
     // Start the sign-in process
     private void signInWithGoogle() {

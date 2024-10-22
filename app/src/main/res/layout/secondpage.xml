@@ -90,7 +90,7 @@
         android:layout_marginTop="657dp"
         android:background="#F3EBD2"
         android:stateListAnimator="@null"
-        android:text="Log In!"
+        android:text="log_in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
