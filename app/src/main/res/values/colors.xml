@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="nav_item_color">#FF5722</color>
+    <color name="colorBotMessage">#FF6200EE</color>
+    <color name="colorUserMessage">#E0E0E0</color>
+
+
 </resources>
