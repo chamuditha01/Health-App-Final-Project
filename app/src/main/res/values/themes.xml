@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Ayursensei" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color -->
-        <item name="colorPrimary">#336134</item>
-        <item name="colorPrimaryDark">#336134</item>
+        <item name="colorPrimary">#08830B</item>
+        <item name="colorPrimaryDark">#08830B</item>
         <item name="colorAccent">@color/teal_200</item>
 
         <!-- Set the status bar color -->
-        <item name="android:statusBarColor">#336134</item>
+        <item name="android:statusBarColor">#08830B</item>
         <item name="android:windowLightStatusBar">false</item>
 
 

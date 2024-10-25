@@ -19,7 +19,7 @@
         android:id="@+id/btngetstarted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="104dp"
         android:layout_marginTop="588dp"
         android:background="@drawable/rounded_button_background"
         android:padding="15dp"
@@ -27,12 +27,7 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

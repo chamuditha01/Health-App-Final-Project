@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
@@ -36,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
                 onGetStart(view); // Pass the view to the method
             }
         });
+
+
+
+
     }
     public void onGetStart(View view) {
         Intent intent = new Intent(this, SecondActivity.class); // Use the correct class name

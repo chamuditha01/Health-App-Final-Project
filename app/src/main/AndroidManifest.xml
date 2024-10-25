@@ -31,6 +31,8 @@
         <activity android:name=".fpinputemail" />
         <activity android:name=".resetPassword" />
         <activity android:name=".chatbotUi" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".profileUi" />
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
