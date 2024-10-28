@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EBD2"
+    tools:ignore="ExtraText,MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif"
+        android:text="Welcome Back!"
+        android:textColor="#B1162D"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/floatingLabel"
+        android:layout_width="110dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="118dp"
+        android:text="Email Address"
+        android:textColor="#336134"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtloginemail"
+        android:layout_width="312dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/signupinput"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="#336134"
+        android:textColorHint="#336134"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btnlforgotpwurl"
+        android:layout_width="141dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="292dp"
+        android:background="#F3EBD2"
+        android:stateListAnimator="@null"
+        android:text="Forgot password?"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/floatingLabel1"
+        android:layout_width="110dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="202dp"
+        android:text="Password"
+        android:textColor="#336134"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" /><![CDATA[
+
+    android:contentDescription="@string/toggle_password_visibility"
+        app:layout_constraintStart_toEndOf="@id/txtloginpw"
+        app:layout_constraintTop_toTopOf="@id/txtloginpw"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+    ]]>
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/txtloginpw"
+            android:layout_width="312dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="208dp"
+            android:background="@drawable/signupinput"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColor="#336134"
+
+            android:textColorHint="#336134"
+            android:textSize="19sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="470dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="364dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginimg1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnlogin1"
+        android:layout_width="165dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/rounded_button_background"
+        android:text="Login"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="200dp"
+        android:text="Don't have an account?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnsignupurl"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginBottom="89dp"
+        android:background="#F3EBD2"
+        android:stateListAnimator="@null"
+        android:text="Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:text="Please login to your account"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
