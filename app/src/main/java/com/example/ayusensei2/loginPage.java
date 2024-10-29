@@ -152,7 +152,7 @@ public class loginPage extends AppCompatActivity {
     }
 
     public void onclicklogin(View view) {
-        Intent intent = new Intent(this, dashboard.class); // Use the correct class name
+        Intent intent = new Intent(this, btmNavMainClass.class); // Use the correct class name
         startActivity(intent);
     }
 

@@ -33,6 +33,7 @@
         <activity android:name=".chatbotUi" />
         <activity android:name=".dashboard" />
         <activity android:name=".profileUi" />
+        <activity android:name=".btmNavMainClass" />
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

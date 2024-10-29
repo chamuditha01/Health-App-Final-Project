@@ -11,4 +11,9 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="default_web_client_id">420029127666-l18vr2gvs01guhauq045o0a40j6ca53l.apps.googleusercontent.com</string>
     <string name="log_in">Log In!</string>
+    <string name="home">home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="market">market</string>
+    <string name="profile">Profile</string>
 </resources>
