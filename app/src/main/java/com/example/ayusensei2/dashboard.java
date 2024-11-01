@@ -18,23 +18,13 @@ public class dashboard extends AppCompatActivity {
         Button BCC =findViewById(R.id.btnBCC);
 
 
-        BCC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onclickBCC(view); // Pass the view to the method
-            }
-        });
-
         // Enable the back button in the action bar
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
 
-    public void onclickBCC(View view) {
-        Intent intent = new Intent(this, chatbotUi.class); // Use the correct class name
-        startActivity(intent);
-    }
+
     public void onclickprofile(View view) {
         Intent intent = new Intent(this, profileUi.class); // Use the correct class name
         startActivity(intent);
